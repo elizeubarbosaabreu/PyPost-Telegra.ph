@@ -59,8 +59,7 @@ menu = [['&Arquivo',
             ['&Negrito',
              '&Itálico']],
            ['&Inserir',
-            ['&Code',
-             '&Imagem',
+            ['&Imagem',
              '&Link',
              '&Lista',
              '&Parágrafo']],
@@ -126,12 +125,12 @@ while True:
     elif event == 'Colar':
         content = values['-content-']
         copiado = clipboard.paste()
-        content += f'{copiado}'        
+        content += f' {copiado}'        
         window['-content-'].update(content)
     
     elif event == 'Negrito':
         content = values['-content-']        
-        content += f'<b> Seu texto aqui </b>'
+        content += f' <b> Seu texto aqui </b>'
         window['-content-'].update(content)
         
     elif event == 'Parágrafo':
@@ -145,19 +144,8 @@ while True:
     
     elif event == 'Itálico':
         content = values['-content-']        
-        content += f'<i> Seu texto aqui </i>'
-        window['-content-'].update(content)         
-    
-    elif event == 'Code':
-        content = values['-content-']        
-        content += f'''
-
-<p><code>
-Seu código aqui
-</code></p>
-
-'''
-        window['-content-'].update(content)
+        content += f' <i> Seu texto aqui </i>'
+        window['-content-'].update(content)  
     
     elif event == 'Imagem':
         content = values['-content-']        
@@ -167,7 +155,7 @@ Seu código aqui
     
     elif event == 'Link':
         content = values['-content-']        
-        content += f'<img src="Link da sua imagem">'
+        content += f' <a href="link da internet">editar este texto</a>'
         window['-content-'].update(content)
     
     elif event == 'Lista':

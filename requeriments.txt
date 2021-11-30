@@ -1,0 +1,12 @@
+altgraph==0.17.2
+certifi==2021.10.8
+charset-normalizer==2.0.8
+clipboard==0.0.4
+idna==3.3
+pyinstaller==4.7
+pyinstaller-hooks-contrib==2021.4
+pyperclip==1.8.2
+PySimpleGUI==4.55.1
+requests==2.26.0
+telegraph==2.1.0
+urllib3==1.26.7
