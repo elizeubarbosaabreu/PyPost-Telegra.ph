@@ -24,7 +24,7 @@ git clone https://github.com/elizeubarbosaabreu/PyPost-Telegra.ph
 
 ~~~
 
-Agora, ** se estiver usando Linux ou MAC**, abra o terminal e use os comandos abaixo para criar uma venv, instalar as dependências e executar o app.py:
+Agora, **se estiver usando Linux ou MAC**, abra o terminal e use os comandos abaixo para criar uma venv, instalar as dependências e executar o app.py:
  
 ~~~python
 
