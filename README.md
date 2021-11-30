@@ -1,0 +1,9 @@
+# PyPost Telegra.ph
+
+**PyPost Telegra.ph** é uma versão gráfica para o site http://telegra.ph. Telegra.ph é um sistema de postagens anônimo do Telegram. Basta criar uma postagem e compartilhar o link da postagem gerado no Facebook, Twitter ou qualquer outro lugar...
+Telegra.ph tem suporte a links e incorporação do Youtube, Vimeo, twitter e outros...
+
+
+## Usar o PyPost Telegra.ph é bem fácil:
+
+Preencha com um título, crie um nome de usuário (pode ser fictício), crie o conteúdo e clique no botão [Publicar no Telegra.ph], cole o link que é gerado na área da transferência, tente [CTRL]+[V]...
